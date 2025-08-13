@@ -1,0 +1,21 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		
+		inteiro n1, n2
+	
+		escreva("Diga um número inteiro \n")
+		leia(n1)
+		escreva("Diga outro número maior \n")
+		leia(n2)
+		escreva("Os números entre eles são: \n")
+
+		para(inteiro i=n1; i <= n2; i++){
+
+			escreva(i, " ")
+
+		}
+	}
+}
