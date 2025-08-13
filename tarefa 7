@@ -1,0 +1,26 @@
+programa
+{
+	
+	funcao inicio()
+	{
+
+		inteiro nota
+
+		enquanto(verdadeiro){
+
+		escreva("Diga uma nota \n")
+		leia(nota)
+
+		se(nota < 1 ou nota > 10){
+		
+		escreva("Nota inválida \n")
+		
+		}senao{
+			
+		escreva("Nota válida")
+		pare
+
+		}
+		}
+	}
+}
