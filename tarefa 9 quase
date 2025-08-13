@@ -1,0 +1,52 @@
+programa
+{
+	inclua biblioteca Texto
+ --> T
+	
+	funcao inicio()
+	{
+
+		cadeia nome
+		inteiro idade, salario
+		
+		
+		escreva("Diga sua idade \n")
+		leia(idade)
+		escreva("Diga seu salário \n")
+		leia(salario)
+
+		enquanto(verdadeiro){
+
+		escreva("Diga seu nome \n")
+		leia(nome)
+
+		se(T.numero_caracteres(nome) > 3){
+		
+		escreva("Senha insegura \n")
+		
+		}senao{
+			
+		escreva("Senha segura")
+		pare
+
+		}
+		}
+
+		enquanto(verdadeiro){
+
+		escreva("Diga sua idade \n")
+		leia(idade)
+
+		se(idade < 0 ou idade > 150){
+		
+		escreva("Senha insegura \n")
+		
+		}senao{
+			
+		escreva("Senha segura")
+		pare
+
+		}
+		}
+	}
+}
