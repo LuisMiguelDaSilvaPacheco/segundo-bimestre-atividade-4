@@ -1,0 +1,19 @@
+programa
+{
+	
+	funcao inicio()
+	{
+
+		inteiro A = 200000
+		inteiro anos = 0
+
+		para(inteiro B = 80000; B <= A; anos++ ){
+			
+		A += (A * 0.15)
+		B += (B * 0.3)
+
+		}
+
+		escreva("Levaram ", anos, "  anos para que a cidade B ultrapassasse a cidade A")
+	}
+}
