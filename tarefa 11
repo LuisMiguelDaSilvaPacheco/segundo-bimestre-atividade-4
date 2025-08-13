@@ -1,0 +1,29 @@
+programa
+{
+	
+	funcao inicio()
+	{
+
+		inteiro A, B, taxaA, taxaB, anos
+
+		enquanto(verdadeiro){
+		escreva("informe a população de uma cidade A")
+		leia(A)
+		escreva("informe a população de uma cidade B")
+		leia(B)
+		escreva("informe a taxa de crescimento da cidade A")
+		leia(taxaA)
+		escreva("informe a taxa de crescimento da cidade A")
+		leia(taxaB)
+
+		para(anos = 0; B <= A; anos++ ){
+			
+		A += A * (taxaA / 100)
+		B += B * (taxaB / 100)
+
+		}
+
+		escreva("Levaram ", anos, "  anos para que a cidade B ultrapassasse a cidade A")
+		}
+	}
+}
