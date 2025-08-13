@@ -1,19 +1,12 @@
 programa
 {
-	inclua biblioteca Texto
- --> T
+	inclua biblioteca Texto --> T
 	
 	funcao inicio()
 	{
 
 		cadeia nome
 		inteiro idade, salario
-		
-		
-		escreva("Diga sua idade \n")
-		leia(idade)
-		escreva("Diga seu salário \n")
-		leia(salario)
 
 		enquanto(verdadeiro){
 
@@ -26,7 +19,7 @@ programa
 		
 		}senao{
 			
-		escreva("Senha segura")
+		escreva("Senha segura \n")
 		pare
 
 		}
@@ -43,7 +36,24 @@ programa
 		
 		}senao{
 			
-		escreva("Senha segura")
+		escreva("Senha segura \n")
+		pare
+
+		}
+		}
+		
+		enquanto(verdadeiro){
+
+		escreva("Diga seu salário \n")
+		leia(idade)
+
+		se(idade < 0 ou idade > 150){
+		
+		escreva("Salário irreal \n")
+		
+		}senao{
+			
+		escreva("Salário aceito")
 		pare
 
 		}
