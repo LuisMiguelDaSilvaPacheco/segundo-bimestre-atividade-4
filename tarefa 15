@@ -1,0 +1,24 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro base, expoente
+		inteiro potencia
+		
+		escreva("informe uma base \n")
+		leia(base)
+		escreva("informe um expoente \n")
+		leia(expoente)
+
+		potencia = base
+
+		para(inteiro i=1; i < expoente; i++){
+
+			potencia = potencia * base
+
+		}
+
+		escreva("o resultado é ", potencia)
+	}
+}
