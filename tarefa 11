@@ -5,6 +5,7 @@ programa
 	{
 
 		inteiro A, B, taxaA, taxaB, anos
+		cadeia continuar
 
 		enquanto(verdadeiro){
 		escreva("informe a população de uma cidade A")
@@ -23,7 +24,13 @@ programa
 
 		}
 
-		escreva("Levaram ", anos, "  anos para que a cidade B ultrapassasse a cidade A")
+		escreva("Levaram ", anos, "  anos para que a cidade B ultrapassasse a cidade A \n")
+		escreva("Deseja continuar?")
+		leia(continuar)
+
+		se(continuar == "Não" ou continuar == "não"){
+			pare
+		}
 		}
 	}
 }
