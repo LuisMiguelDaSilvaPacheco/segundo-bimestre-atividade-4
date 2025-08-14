@@ -1,0 +1,17 @@
+programa
+{
+	inclua biblioteca Matematica
+ --> m
+	
+	funcao inicio()
+	{
+		real n1, n2, n3, n4, n5, maior
+		
+		escreva("informe 5 números \n")
+		leia(n1, n2, n3, n4, n5)
+
+		maior = m.maior_numero(n5,m.maior_numero(n4,m.maior_numero(n3,m.maior_numero(n2, n1))))
+
+		escreva("o maior número é ", maior)
+	}
+}
