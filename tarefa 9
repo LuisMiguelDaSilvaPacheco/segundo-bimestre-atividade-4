@@ -6,7 +6,8 @@ programa
 	{
 
 		cadeia nome
-		inteiro idade, salario
+		inteiro idade
+		real salario
 
 		enquanto(verdadeiro){
 
@@ -32,11 +33,11 @@ programa
 
 		se(idade < 0 ou idade > 150){
 		
-		escreva("Senha insegura \n")
+		escreva("Idade impossível \n")
 		
 		}senao{
 			
-		escreva("Senha segura \n")
+		escreva("Você está na flor da idade! \n")
 		pare
 
 		}
