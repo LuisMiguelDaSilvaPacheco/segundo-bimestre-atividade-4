@@ -1,0 +1,103 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro n0, n1, n2, n3, n4, n5, n6, n7, n8, n9
+		inteiro posicaoImpar = 0
+		inteiro posicaoPar = 0
+
+		inteiro impares[10]
+		inteiro pares[10]
+		
+		escreva("Diga 10 números inteiros")
+		leia(n0, n1, n2, n3, n4, n5, n6, n7, n8, n9)
+
+		se(n0 % 2 == 1){
+			impares[posicaoImpar] = n0
+			posicaoImpar++
+		}senao{
+			pares[posicaoPar] = n0
+			posicaoPar++
+		}
+		se(n1 % 2 == 1){
+			impares[posicaoImpar] = n1
+			posicaoImpar++
+		}senao{
+			pares[posicaoPar] = n1
+			posicaoPar++
+		}
+		se(n2 % 2 == 1){
+			impares[posicaoImpar] = n2
+			posicaoImpar++
+		}senao{
+			pares[posicaoPar] = n2
+			posicaoPar++
+		}
+		se(n3 % 2 == 1){
+			impares[posicaoImpar] = n3
+			posicaoImpar++
+		}senao{
+			pares[posicaoPar] = n3
+			posicaoPar++
+		}
+		se(n4 % 2 == 1){
+			impares[posicaoImpar] = n4
+			posicaoImpar++
+		}senao{
+			pares[posicaoPar] = n4
+			posicaoPar++
+		}
+		se(n5 % 2 == 1){
+			impares[posicaoImpar] = n5
+			posicaoImpar++
+		}senao{
+			pares[posicaoPar] = n5
+			posicaoPar++
+		}
+		se(n6 % 2 == 1){
+			impares[posicaoImpar] = n6
+			posicaoImpar++
+		}senao{
+			pares[posicaoPar] = n6
+			posicaoPar++
+		}
+		se(n7 % 2 == 1){
+			impares[posicaoImpar] = n7
+			posicaoImpar++
+		}senao{
+			pares[posicaoPar] = n7
+			posicaoPar++
+		}
+		se(n8 % 2 == 1){
+			impares[posicaoImpar] = n8
+			posicaoImpar++
+		}senao{
+			pares[posicaoPar] = n8
+			posicaoPar++
+		}
+		se(n9 % 2 == 1){
+			impares[posicaoImpar] = n9
+			posicaoImpar++
+		}senao{
+			pares[posicaoPar] = n9
+			posicaoPar++
+		}
+
+		escreva("os números impares são: \n")
+		
+		para(inteiro i=0; i < posicaoImpar; i++){
+
+			escreva(impares[i], "\n")
+
+		}
+		
+		escreva("os números pares são: \n")
+		
+		para(inteiro i=0; i < posicaoPar; i++){
+
+			escreva(pares[i], "\n")
+
+		}
+	}
+}
