@@ -4,9 +4,11 @@ programa
 	funcao inicio()
 	{
 		real n1 = 1, n2 = 0, contagem = 0, nvoltas
-		escreva("Até qual posição você quer ir na sequência de fibonacci? ")
+
+		escreva("Até qual posição você quer ir na sequência de fibonacci? \n")
 		leia(nvoltas)
-			escreva (n2, " ")
+		escreva (n2, " ")
+
 		enquanto(contagem <= nvoltas){
 			n1 = n1 + n2
 			escreva(n1, " ")
