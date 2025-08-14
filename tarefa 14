@@ -1,0 +1,17 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro n
+		
+		escreva("Informe um número inteiro \n")
+		leia(n)
+
+		para(inteiro i=0; i <= 10; i++){
+
+			escreva(i, "x", n, " = ", i*n, "\n")
+
+		}
+	}
+}
