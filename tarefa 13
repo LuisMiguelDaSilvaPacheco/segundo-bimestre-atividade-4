@@ -1,0 +1,15 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real n1, n2, n3, n4, n5, soma
+		
+		escreva("informe 5 números \n")
+		leia(n1, n2, n3, n4, n5)
+
+		soma = n1 + n2 + n3 + n4
+
+		escreva("a soma dos números é ", soma, " e a média é ", soma / 5)
+	}
+}
